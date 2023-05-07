@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+}
+
+.common{
+    height: 300px;
+    width: 280px;
+    background-color: antiquewhite;
+    margin: 10px;
+    transition: all 1s;
+}
+
+div.container > div:nth-of-type(even) {
+    background: #e0e0e0;
+}
+
+.container{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+
+img{
+    width: 280px;
+    height: 200px;
+    
+}
+
+.common:hover{
+    transform: scale(1.1);
+}
+
+h2{
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+    box-shadow: 4px 4px 5px gray;
+}
+
+.theme{
+    width: 305px;
+    text-align: center;
+}
+
